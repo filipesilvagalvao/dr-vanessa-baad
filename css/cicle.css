@@ -1,0 +1,25 @@
+.cicle{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cicle__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: min(100%, 600px);
+
+    }
+}
+
+.cicle__title{
+    text-align: center;
+    font-size: min(3rem, 6vw);
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+    z-index: 2;
+}
