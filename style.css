@@ -18,6 +18,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --main-color:#f34d1b;
     --bg-color-1:#e7e7e7;
